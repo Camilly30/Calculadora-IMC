@@ -1,3 +1,11 @@
+
+window.onload = () => {
+    "use strict";
+    if("ServiceWorker" in navigator){
+        navigator.serviceWorker.register("./sw.js");
+    }
+};
+
 const teamAName = document.getElementById('teamA');
 const teamBName = document.getElementById('teamB');
 const teamAScore = document.getElementById('teamAScore');
