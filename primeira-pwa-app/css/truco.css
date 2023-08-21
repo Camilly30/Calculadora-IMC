@@ -1,0 +1,74 @@
+.fullscreen{
+    background-color: rgb(170, 180, 189);
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    font-family: monospace;
+    padding: 10px;
+}
+
+h1{
+    font-size: 60px;
+    text-shadow: rgba(17, 20, 22, 0.808) 0px 1px 2px;
+
+}
+.container{
+    background-color: lightslategray;
+    border-radius: 5px;
+    box-shadow: rgba(25, 31, 36, 0.719) 0px 1px 2px;
+    font-size: 20px;
+    padding: 50px;
+    
+}
+
+input {
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    width: 470px;
+  }
+  .butondereset .butondereset{
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #bd0009;
+    color: white;
+    margin: 20px;
+    width: 470px;
+  }
+
+  button{
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #1900ff;
+    color: white;
+    margin: 10px;
+  }
+  a{
+    text-decoration:none;
+    font-size: 30px;
+    text-shadow: rgba(25, 31, 36, 0.719) 0px 1px 2px;
+    color: rgb(31, 31, 119);;
+  }
+.team-score{
+    display: inline-block;
+    margin: 50px;
+    
+}
+.contagem{
+height:  50%;
+font-size: 25px;
+}

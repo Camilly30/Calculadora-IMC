@@ -1,3 +1,13 @@
+
+window.onload = () => {
+    "use strict";
+    if("ServiceWorker" in navigator){
+        navigator.serviceWorker.register("./sw.js");
+    }
+};
+
+
+
 const resultado = document.querySelector('resultado')
 const altura = document.querySelector('altura')
 const peso = document.querySelector('peso')
