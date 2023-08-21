@@ -1,4 +1,4 @@
-let cacheName = "my-first-pwa";
+let cacheName = "trabalho-pwa";
 let filesToCache = ["/","/index.html", "/truco.html","/css/css.css","/css/truco.css","/js/imc.js","/js/truco.js"];
 
 self.addEventListener("install",(e) => {
