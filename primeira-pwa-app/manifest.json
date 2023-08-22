@@ -1,6 +1,25 @@
 {
     "name":"Minha primeira App Progressiva",
     "short_name":"Primeira PWA",
+    "icons":[
+        {
+            "src": "images/sol256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+
+        },
+        {
+            "src": "images/sol512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "images/sol256.png",
+            "sizes": "256x256",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
     "lang":"pt-br",
     "start_url": "/index.html",
     "display": "standalone",
